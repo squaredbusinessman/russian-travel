@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
@@ -9,21 +9,29 @@
   <link rel="stylesheet" href="./pages/index.css">
   <title>Путешествия по России</title>
 </head>
-<body>
+<body class="body-index">
   <header class="header">
     <img class="header__logo" src="./images/logo/header-logo.svg" alt="Логотип сайта">
-    <ul class="header__languages">
-      <li class="header__lang">Ru</li>
-      <li class="header__lang">En</li>
+    <ul class="header__languages lists languages">
+      <li class="languages__item">
+        <a class="languages__link languages__link_active link" href="#">
+          Ru
+        </a>
+      </li>
+      <li class="languages__item">
+        <a class="languages__link link" href="#">
+          En
+        </a>
+      </li>
     </ul>
   </header>
   <main>
     <div class="root">
       <section class="intro">
-        <h1 class="section__title intro__title">
+        <h1 class="intro__title">
           Путешествия по России
         </h1>
-        <p class="section__subtitle intro__subtitle">
+        <p class="intro__subtitle">
           Настоящая страна не в выпусках новостей, а здесь.
         </p>
         <div class="intro__img-wrapper">
@@ -31,19 +39,19 @@
             <source srcset="./images/intro/intro-kupe-1x.jpg, ./images/intro/intro-kupe-2x.jpg 2x">
             <img class="intro__img" src="./images/intro/intro-kupe-1x.jpg" alt="Схема маршрута на фотографии купе поезда">
           </picture>
-          <p class="intro__img-description">
-            Ваша полка - верхняя
-          </p>
         </div>
+        <p class="intro__img-caption">
+          Ваша полка - верхняя
+        </p>
       </section>
       <section class="about">
-        <h2 class="section__title">
+        <h2 class="about__title">
           Чего мы там не видели?
         </h2>
-        <p class="about__description">
+        <p class="about__sub-title">
           По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
         </p>
-        <ul class="about__facts">
+        <ul class="lists about__facts">
           <li class="about__fact">
             <p class="about__fact-text">
               Часовых поясов
@@ -78,7 +86,7 @@
       </section>
       <section class="photo-cards">
         <h2 class="visually-hidden">Галерея фотографий</h2>
-        <ul class="gallery">
+        <ul class="lists gallery">
           <li class="gallery__card">
             <picture>
               <source srcset="./images/gallery/gallery-grid-train-1x.jpg, ./images/gallery/gallery-grid-train-2x.jpg 2x">
@@ -155,7 +163,7 @@
       </section>
       <section class="detailed">
         <h2 class="visually-hidden">Места силы</h2>
-        <ul class="detailed__cards">
+        <ul class="lists detailed__cards">
           <li class="detailed__card">
             <h3 class="detailed__card-title"></h3>
             <p class="detailed__card-url">
@@ -239,7 +247,7 @@
     </div>
   </main>
   <footer class="footer">
-    <ul class="footer__links">
+    <ul class="lists footer__links">
       <li class="footer__link">
         <a class="link" href="#">
           Карты
@@ -266,7 +274,8 @@
         </a>
       </li>
     </ul>
-    <p class="footer__author">&copy; 2022.
+    <p class="footer__author">
+      &copy; 2022.
       <a class="link" href="https://www.facebook.com/squaredbusinessman" target="_blank" rel="noopener noreferrer">
         Евгений Антропов
       </a>

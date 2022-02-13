@@ -1,0 +1,9 @@
+.intro__title {
+  display: block;
+  width: 720px;
+  margin: 0 auto 32px;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 100px;
+  text-align: center;
+}

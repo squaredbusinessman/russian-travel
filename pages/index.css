@@ -1,2 +1,68 @@
+/* Normalize */
 @import url(../vendor/normalize.css);
-@import url(../blocks/promo/promo.css);
+
+/*Fonts */
+@import url(../fonts/fonts.css);
+
+/* Animations */
+
+
+/* Common blocks */
+@import url(../blocks/common/link/link.css);
+
+@import url(../blocks/common/lists/lists.css);
+
+@import url(../blocks/common/languages/languages.css);
+@import url(../blocks/common/languages/__link/languages__link.css);
+@import url(../blocks/common/languages/__item/languages__item.css);
+@import url(../blocks/common/languages/__link/_active/languages__link_active.css);
+
+
+
+/* Body */
+@import url(../blocks/body-index/body-index.css);
+
+/* Root */
+@import url(../blocks/main/root/root.css);
+
+/* Header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__languages/header__languages.css);
+
+/* Project sections */
+@import url(../blocks/main/intro/intro.css);
+@import url(../blocks/main/intro/__title/intro__title.css);
+@import url(../blocks/main/intro/__sub-title/intro__subtitle.css);
+@import url(../blocks/main/intro/__img-wrapper/intro__img-wrapper.css);
+@import url(../blocks/main/intro/__img/intro__img.css);
+@import url(../blocks/main/intro/__img-caption/intro__img-caption.css);
+
+@import url(../blocks/main/about/about.css);
+@import url(../blocks/main/about/__title/about__title.css);
+@import url(../blocks/main/about/__sub-title/about__sub-title.css);
+
+@import url(../blocks/main/promo/promo.css);
+
+/* Footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__author/footer__author.css);
+
+
+
+
+
+
+
+
+
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);

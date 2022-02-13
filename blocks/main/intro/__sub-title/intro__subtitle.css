@@ -1,0 +1,9 @@
+.intro__subtitle {
+  display: block;
+  width: 640px;
+  margin: 0 auto 64px;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  text-align: center;
+}
