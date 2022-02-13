@@ -11,7 +11,7 @@
 </head>
 <body>
   <header class="header">
-    <img class="header__logo" src="" alt="Логотип сайта">
+    <img class="header__logo" src="./images/logo/header-logo.svg" alt="Логотип сайта">
     <ul class="header__languages">
       <li class="header__lang">Ru</li>
       <li class="header__lang">En</li>
@@ -19,7 +19,6 @@
   </header>
   <main>
     <div class="root">
-
       <section class="intro">
         <h1 class="section__title intro__title">
           Путешествия по России
@@ -27,14 +26,16 @@
         <p class="section__subtitle intro__subtitle">
           Настоящая страна не в выпусках новостей, а здесь.
         </p>
-        <div class="intro__img">
-          <img class="img-responsive" src="" alt="Схема маршрута на фотографии купе поезда">
+        <div class="intro__img-wrapper">
+          <picture>
+            <source srcset="./images/intro/intro-kupe-1x.jpg, ./images/intro/intro-kupe-2x.jpg 2x">
+            <img class="intro__img" src="./images/intro/intro-kupe-1x.jpg" alt="Схема маршрута на фотографии купе поезда">
+          </picture>
           <p class="intro__img-description">
             Ваша полка - верхняя
           </p>
         </div>
       </section>
-
       <section class="about">
         <h2 class="section__title">
           Чего мы там не видели?
@@ -75,49 +76,83 @@
           </li>
         </ul>
       </section>
-
       <section class="photo-cards">
         <h2 class="visually-hidden">Галерея фотографий</h2>
         <ul class="gallery">
           <li class="gallery__card">
-            <img class="gallery__card-img" src="" alt="">
+            <picture>
+              <source srcset="./images/gallery/gallery-grid-train-1x.jpg, ./images/gallery/gallery-grid-train-2x.jpg 2x">
+              <img class="gallery__card-img" src="./images/gallery/gallery-grid-train-1x.jpg" alt="Фото из окна поезда">
+            </picture>
           </li>
           <li class="gallery__card">
-            <img class="gallery__card-img" src="" alt="">
+            <picture>
+              <source srcset="./images/gallery/gallery-grid-atharva-tulsi-1x.jpg, ./images/gallery/gallery-grid-atharva-tulsi-2x.jpg 2x">
+              <img class="gallery__card-img" src="./images/gallery/gallery-grid-atharva-tulsi-1x.jpg" alt="Атхарва Тулси">
+            </picture>
           </li>
           <li class="gallery__card">
-            <img class="gallery__card-img" src="" alt="">
+            <picture>
+              <source srcset="./images/gallery/gallery-grid-morning-field-1x.jpg, ./images/gallery/gallery-grid-morning-field-2x.jpg 2x">
+              <img class="gallery__card-img" src="./images/gallery/gallery-grid-morning-field-1x.jpg" alt="Рассвет в поле">
+            </picture>
           </li>
           <li class="gallery__card">
-            <img class="gallery__card-img" src="" alt="">
+            <picture>
+              <source srcset="./images/gallery/gallery-grid-sochi-1x.jpg, ./images/gallery/gallery-grid-sochi-2x.jpg 2x">
+              <img class="gallery__card-img" src="./images/gallery/gallery-grid-sochi-1x.jpg" alt="Сочи, горы в тумане">
+            </picture>
           </li>
           <li class="gallery__card">
-            <img class="gallery__card-img" src="" alt="">
+            <picture>
+              <source srcset="./images/gallery/gallery-grid-arisa-1x.jpg, ./images/gallery/gallery-grid-arisa-2x.jpg 2x">
+              <img class="gallery__card-img" src="./images/gallery/gallery-grid-arisa-1x.jpg" alt="Ариса">
+            </picture>
           </li>
           <li class="gallery__card">
-            <img class="gallery__card-img" src="" alt="">
+            <picture>
+              <source srcset="./images/gallery/gallery-grid-baikal-1x.jpg, ./images/gallery/gallery-grid-baikal-2x.jpg 2x">
+              <img class="gallery__card-img" src="./images/gallery/gallery-grid-baikal-1x.jpg" alt="Байкал">
+            </picture>
           </li>
           <li class="gallery__card">
-            <img class="gallery__card-img" src="" alt="">
+            <picture>
+              <source srcset="./images/gallery/gallery-grid-elbrus-1x.jpg, ./images/gallery/gallery-grid-elbrus-2x.jpg 2x">
+              <img class="gallery__card-img" src="./images/gallery/gallery-grid-elbrus-1x.jpg" alt="Эльбрус">
+            </picture>
           </li>
           <li class="gallery__card">
-            <img class="gallery__card-img" src="" alt="">
+            <picture>
+              <source srcset="./images/gallery/gallery-grid-condratiev-1x.jpg, ./images/gallery/gallery-grid-condratiev-2x.jpg 2x">
+              <img class="gallery__card-img" src="./images/gallery/gallery-grid-condratiev-1x.jpg" alt="Кондратьев">
+            </picture>
           </li>
           <li class="gallery__card">
-            <img class="gallery__card-img" src="" alt="">
+            <picture>
+              <source srcset="./images/gallery/gallery-grid-kamchatka-1x.jpg, ./images/gallery/gallery-grid-kamchatka-2x.jpg 2x">
+              <img class="gallery__card-img" src="./images/gallery/gallery-grid-kamchatka-1x.jpg" alt="Камчатка">
+            </picture>
           </li>
           <li class="gallery__card">
-            <img class="gallery__card-img" src="" alt="">
+            <picture>
+              <source srcset="./images/gallery/gallery-grid-kamchatka-sopki-1x.jpg, ./images/gallery/gallery-grid-kamchatka-sopki-2x.jpg 2x">
+              <img class="gallery__card-img" src="./images/gallery/gallery-grid-kamchatka-sopki-1x.jpg" alt="Камчатка - сопки">
+            </picture>
           </li>
           <li class="gallery__card">
-            <img class="gallery__card-img" src="" alt="">
+            <picture>
+              <source srcset="./images/gallery/gallery-grid-baikal-second-1x.jpg, ./images/gallery/gallery-grid-baikal-second-2x.jpg 2x">
+              <img class="gallery__card-img" src="./images/gallery/gallery-grid-baikal-second-1x.jpg" alt="Байкал - холмы">
+            </picture>
           </li>
           <li class="gallery__card">
-            <img class="gallery__card-img" src="" alt="">
+            <picture>
+              <source srcset="./images/gallery/gallery-grid-ergaki-1x.jpg, ./images/gallery/gallery-grid-ergaki-2x.jpg 2x">
+              <img class="gallery__card-img" src="./images/gallery/gallery-grid-ergaki-1x.jpg" alt="Ергаки">
+            </picture>
           </li>
         </ul>
       </section>
-
       <section class="detailed">
         <h2 class="visually-hidden">Места силы</h2>
         <ul class="detailed__cards">
@@ -127,7 +162,10 @@
               URL
               <a class="detailed__card-link link" href="#" target="_blank" rel="noopener noreferrer"></a>
             </p>
-            <img class="detailed__card-img" src="" alt="">
+            <picture>
+              <source srcset="./images/places/places-kosa-1x.jpg, ./images/places/places-kosa-2x.jpg 2x">
+              <img class="detailed__card-img" src="./images/places/places-kosa-1x.jpg" alt="Куршская коса">
+            </picture>
             <p class="detailed__card-description">
 
             </p>
@@ -138,7 +176,10 @@
               URL
               <a class="detailed__card-link link" href="#" target="_blank" rel="noopener noreferrer"></a>
             </p>
-            <img class="detailed__card-img" src="" alt="">
+            <picture>
+              <source srcset="./images/places/places-kolsky-1x.jpg, ./images/places/places-kolsky-2x.jpg 2x">
+              <img class="detailed__card-img" src="./images/places/places-kolsky-1x.jpg" alt="Кольский">
+            </picture>
             <p class="detailed__card-description">
 
             </p>
@@ -149,7 +190,10 @@
               URL
               <a class="detailed__card-link link" href="#" target="_blank" rel="noopener noreferrer"></a>
             </p>
-            <img class="detailed__card-img" src="" alt="">
+            <picture>
+              <source srcset="./images/places/places-altai-1x.jpg, ./images/places/places-altai-2x.jpg 2x">
+              <img class="detailed__card-img" src="./images/places/places-altai-1x.jpg" alt="Алтай">
+            </picture>
             <p class="detailed__card-description">
 
             </p>
@@ -160,7 +204,10 @@
               URL
               <a class="detailed__card-link link" href="#" target="_blank" rel="noopener noreferrer"></a>
             </p>
-            <img class="detailed__card-img" src="" alt="">
+            <picture>
+              <source srcset="./images/places/places-baikal-1x.jpg, ./images/places/places-baikal-2x.jpg 2x">
+              <img class="detailed__card-img" src="./images/places/places-baikal-1x.jpg" alt="Зимний байкал">
+            </picture>
             <p class="detailed__card-description">
 
             </p>
@@ -171,14 +218,16 @@
               URL
               <a class="detailed__card-link link" href="#" target="_blank" rel="noopener noreferrer"></a>
             </p>
-            <img class="detailed__card-img" src="" alt="">
+            <picture>
+              <source srcset="./images/places/places-karelia-1x.jpg, ./images/places/places-karelia-2x.jpg 2x">
+              <img class="detailed__card-img" src="./images/places/places-karelia-1x.jpg" alt="Карелия">
+            </picture>
             <p class="detailed__card-description">
 
             </p>
           </li>
         </ul>
       </section>
-
       <section class="promo">
         <h2 class="promo__title section-title">
           До Байкала «на собаках»
@@ -187,7 +236,6 @@
           По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
         </p>
       </section>
-
     </div>
   </main>
   <footer class="footer">
