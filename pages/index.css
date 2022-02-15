@@ -8,6 +8,8 @@
 
 
 /* Common blocks */
+@import url(../blocks/common/visually-hidden/visually-hidden.css);
+
 @import url(../blocks/common/link/link.css);
 
 @import url(../blocks/common/lists/lists.css);
@@ -54,6 +56,7 @@
 @import url(../blocks/main/about/__facts/about__facts.css);
 @import url(../blocks/main/about/__fact/about__fact.css);
 @import url(../blocks/main/about/__fact-text/about__fact-text.css);
+@import url(../blocks/main/about/__fact-text/_weight/about__facts-text_weight_normal.css);
 
 @import url(../blocks/main/detailed/detailed.css);
 @import url(../blocks/main/detailed/__cards/detailed__cards.css);

@@ -1,1 +1,4 @@
-.about {}
+.about {
+  width: calc(100% - 100px * 2);
+  margin: 0 auto;
+}
