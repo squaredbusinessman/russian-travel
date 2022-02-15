@@ -3,4 +3,10 @@
   cursor: pointer;
   text-decoration: none;
   color: #fff;
+  transition: opacity .5s linear;
+}
+
+.link:hover {
+  opacity: .8;
+  transition: opacity .2s linear;
 }

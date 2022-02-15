@@ -61,6 +61,7 @@
 @import url(../blocks/main/promo/promo.css);
 @import url(../blocks/main/promo/__title/promo__title.css);
 @import url(../blocks/main/promo/__subtitle/promo__subtitle.css);
+@import url(../blocks/main/promo/__link/promo__link.css);
 
 /* Footer */
 @import url(../blocks/footer/footer.css);
