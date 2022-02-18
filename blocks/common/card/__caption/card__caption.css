@@ -1,0 +1,7 @@
+.card__caption {
+  margin: 0 0 23px;
+  font-size: 18px;
+  line-height: 1.63;
+  font-weight: 400;
+  grid-row: 2;
+}

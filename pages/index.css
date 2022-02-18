@@ -60,12 +60,14 @@
 @import url(../blocks/main/photo-cards/photo-cards.css);
 
 @import url(../blocks/main/detailed/detailed.css);
-@import url(../blocks/main/detailed/__cards/detailed__cards.css);
+@import url(../blocks/main/detailed/__card/detailed__card.css);
 
 @import url(../blocks/main/promo/promo.css);
 @import url(../blocks/main/promo/__title/promo__title.css);
 @import url(../blocks/main/promo/__subtitle/promo__subtitle.css);
 @import url(../blocks/main/promo/__link/promo__link.css);
+@import url(../blocks/main/promo/__img/promo__img.css);
+@import url(../blocks/main/promo/__text-wrapper/promo__text-wrapper.css);
 
 /* Footer */
 @import url(../blocks/footer/footer.css);

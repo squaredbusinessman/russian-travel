@@ -1,0 +1,13 @@
+.card__url {
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: end;
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #aaa;
+  grid-row: 1;
+}
