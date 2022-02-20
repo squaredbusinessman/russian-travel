@@ -5,3 +5,23 @@
   font-weight: 900;
   grid-row: 1;
 }
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .card__title {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .card__title {
+    width: calc(100% - 16px*2);
+    margin: 0 auto;
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}

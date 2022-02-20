@@ -1,7 +1,19 @@
 .about__subtitle {
-  width: 70%;
+  width: calc(100% - 294px);
   margin: 0 0 33px;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .about__subtitle {
+    width: calc(100% - 238px);
+  }
+}
+
+@media (min-width: 320px) {
+  .about__subtitle {
+    width: 100%;
+  }
 }

@@ -1,10 +1,9 @@
 /* Normalize */
 @import url(../vendor/normalize.css);
 
+
 /*Fonts */
 @import url(../fonts/fonts.css);
-
-/* Animations */
 
 
 /* Common blocks */
@@ -29,17 +28,15 @@
 @import url(../blocks/common/card/__img/card__img.css);
 @import url(../blocks/common/card/__caption/card__caption.css);
 
-
 /* Body */
 @import url(../blocks/body-index/body-index.css);
 
-/* Root */
-@import url(../blocks/main/root/root.css);
 
 /* Header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__languages/header__languages.css);
+
 
 /* Project sections */
 @import url(../blocks/main/intro/intro.css);
@@ -69,8 +66,21 @@
 @import url(../blocks/main/promo/__img/promo__img.css);
 @import url(../blocks/main/promo/__text-wrapper/promo__text-wrapper.css);
 
+
 /* Footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__author/footer__author.css);
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+}

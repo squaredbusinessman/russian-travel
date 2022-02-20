@@ -3,3 +3,9 @@
   height: auto;
   grid-row: 2;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .card__img {
+    margin: 0 auto;
+  }
+}

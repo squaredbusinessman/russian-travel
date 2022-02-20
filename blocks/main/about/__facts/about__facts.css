@@ -1,4 +1,22 @@
 .about__facts {
-  width: 33%;
+  width: calc(100% - 639px);
   margin: 0;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .about__facts {
+    width: calc(100% - 583px);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .about__facts {
+    width: 50%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .about__facts {
+    width: 100%;
+  }
 }

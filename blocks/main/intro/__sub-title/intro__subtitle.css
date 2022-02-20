@@ -1,9 +1,37 @@
 .intro__subtitle {
   display: block;
-  width: 640px;
+  width: calc(100% - 172px*2);
   margin: 0 auto 64px;
   font-size: 30px;
-  line-height: 36px;
+  line-height: 1.2;
   font-weight: 400;
   text-align: center;
 }
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .intro__subtitle {
+    margin-bottom: 56px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .intro__subtitle {
+    width: calc(100% - 144px*2);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .intro__subtitle {
+    width: calc(100% - 64px*2);
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .intro__subtitle {
+    width: calc(100% - 16px*2);
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+

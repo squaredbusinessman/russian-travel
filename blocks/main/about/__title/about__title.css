@@ -1,6 +1,14 @@
 .about__title {
   margin: 0 0 40px;
   font-size: 54px;
-  line-height: 58px;
+  line-height: 1.07;
   font-weight: 900;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .about__title {
+    width: 85%;
+    font-size: 32px;
+    line-height: 1.09;
+  }
 }

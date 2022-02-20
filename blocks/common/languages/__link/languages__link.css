@@ -3,3 +3,10 @@
   line-height: 1.17;
   font-weight: 400;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .languages__link {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+}

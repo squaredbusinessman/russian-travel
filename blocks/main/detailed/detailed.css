@@ -1,4 +1,25 @@
 .detailed {
-  width: calc(100% - 100px * 2);
+  width: calc(100% - 148px * 2);
   margin: 0 auto 92px;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .detailed {
+    width: calc(100% - 48px*2);
+    margin-bottom: 70px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+ .detailed {
+   width: calc(100% - 24px*2);
+   margin-bottom: 90px;
+ }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .detailed {
+    width: 100%;
+    margin-bottom: 66px;
+  }
 }

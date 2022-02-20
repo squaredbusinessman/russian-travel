@@ -11,3 +11,11 @@
   color: #aaa;
   grid-row: 1;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .card__url {
+    width: calc(100% - 16px*2);
+    margin: 0 auto;
+    align-self: flex-start;
+  }
+}
