@@ -1,4 +1,5 @@
 # Проект: Путешествие по России
+[Данный проект на GitHub Pages](https://squaredbusinessman.github.io/russian-travel/)
 
 ### _3-я Проектная работа Я.Практикум_
 #### Выполнил студент - [Антропов Евгений](https://www.facebook.com/squaredbusinessman)
