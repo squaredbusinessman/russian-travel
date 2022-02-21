@@ -5,20 +5,8 @@
   gap: 11px 16px;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
-  .gallery {
-    gap: 14px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-  .gallery {
-    gap: 16px;
-  }
-}
-
 @media (min-width: 320px) and (max-width: 767px) {
   .gallery {
-    gap: 12px;
+    gap: 7px;
   }
 }
