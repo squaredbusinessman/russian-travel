@@ -6,7 +6,7 @@
 @media (min-width: 1024px) and (max-width: 1279px) {
   .detailed {
     width: calc(100% - 48px*2);
-    margin-bottom: 70px;
+    margin-bottom: 75px;
   }
 }
 

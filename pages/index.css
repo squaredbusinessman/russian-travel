@@ -57,7 +57,6 @@
 
 @import url(../blocks/detailed/detailed.css);
 @import url(../blocks/detailed/__list/detailed__list.css);
-@import url(../blocks/detailed/__card/detailed__card.css);
 
 @import url(../blocks/promo/promo.css);
 @import url(../blocks/promo/__title/promo__title.css);
