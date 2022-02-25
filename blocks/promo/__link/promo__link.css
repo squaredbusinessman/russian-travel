@@ -10,6 +10,8 @@
   text-align: center;
   justify-content: center;
   align-items: center;
+  color: #fff;
+  text-decoration: none;
   z-index: 1;
 }
 
@@ -41,5 +43,4 @@ only screen and ( min-resolution: 1.3dppx ) {
     opacity: .7;
     background-size: 100% 100%;
   }
-
 }
