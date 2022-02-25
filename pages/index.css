@@ -7,27 +7,27 @@
 
 
 /* Common blocks */
-@import url(../blocks/common/visually-hidden/visually-hidden.css);
+@import url(../blocks/visually-hidden/visually-hidden.css);
 
-@import url(../blocks/common/link/link.css);
+@import url(../blocks/link/link.css);
 
-@import url(../blocks/common/lists/lists.css);
+@import url(../blocks/lists/lists.css);
 
-@import url(../blocks/common/languages/languages.css);
-@import url(../blocks/common/languages/__link/languages__link.css);
-@import url(../blocks/common/languages/__item/languages__item.css);
-@import url(../blocks/common/languages/__link/_active/languages__link_active.css);
+@import url(../blocks/languages/languages.css);
+@import url(../blocks/languages/__link/languages__link.css);
+@import url(../blocks/languages/__item/languages__item.css);
+@import url(../blocks/languages/__link/_active/languages__link_active.css);
 
-@import url(../blocks/common/gallery/gallery.css);
-@import url(../blocks/common/gallery/__img/gallery__img.css);
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__img/gallery__img.css);
 
-@import url(../blocks/common/card/card.css);
-@import url(../blocks/common/card/__title/card__title.css);
-@import url(../blocks/common/card/__title/_text-wrap/card__title_text-wrap.css);
-@import url(../blocks/common/card/__url/card__url.css);
-@import url(../blocks/common/card/__link/card__link.css);
-@import url(../blocks/common/card/__img/card__img.css);
-@import url(../blocks/common/card/__caption/card__caption.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__title/_text-wrap/card__title_text-wrap.css);
+@import url(../blocks/card/__url/card__url.css);
+@import url(../blocks/card/__link/card__link.css);
+@import url(../blocks/card/__img/card__img.css);
+@import url(../blocks/card/__caption/card__caption.css);
 
 /* Body */
 @import url(../blocks/body-index/body-index.css);
@@ -40,31 +40,31 @@
 
 
 /* Project sections */
-@import url(../blocks/main/intro/intro.css);
-@import url(../blocks/main/intro/__title/intro__title.css);
-@import url(../blocks/main/intro/__sub-title/intro__subtitle.css);
-@import url(../blocks/main/intro/__img-wrapper/intro__img-wrapper.css);
-@import url(../blocks/main/intro/__img/intro__img.css);
-@import url(../blocks/main/intro/__img-caption/intro__img-caption.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__sub-title/intro__subtitle.css);
+@import url(../blocks/intro/__img-wrapper/intro__img-wrapper.css);
+@import url(../blocks/intro/__img/intro__img.css);
+@import url(../blocks/intro/__img-caption/intro__img-caption.css);
 
-@import url(../blocks/main/about/about.css);
-@import url(../blocks/main/about/__title/about__title.css);
-@import url(../blocks/main/about/__subtitle/about__subtitle.css);
-@import url(../blocks/main/about/__facts/about__facts.css);
-@import url(../blocks/main/about/__fact/about__fact.css);
-@import url(../blocks/main/about/__fact-number/about__fact-number.css);
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__subtitle/about__subtitle.css);
+@import url(../blocks/about/__facts/about__facts.css);
+@import url(../blocks/about/__fact/about__fact.css);
+@import url(../blocks/about/__fact-number/about__fact-number.css);
 
-@import url(../blocks/main/photo-cards/photo-cards.css);
+@import url(../blocks/photo-cards/photo-cards.css);
 
-@import url(../blocks/main/detailed/detailed.css);
-@import url(../blocks/main/detailed/__card/detailed__card.css);
+@import url(../blocks/detailed/detailed.css);
+@import url(../blocks/detailed/__card/detailed__card.css);
 
-@import url(../blocks/main/promo/promo.css);
-@import url(../blocks/main/promo/__title/promo__title.css);
-@import url(../blocks/main/promo/__subtitle/promo__subtitle.css);
-@import url(../blocks/main/promo/__link/promo__link.css);
-@import url(../blocks/main/promo/__img/promo__img.css);
-@import url(../blocks/main/promo/__text-wrapper/promo__text-wrapper.css);
+@import url(../blocks/promo/promo.css);
+@import url(../blocks/promo/__title/promo__title.css);
+@import url(../blocks/promo/__subtitle/promo__subtitle.css);
+@import url(../blocks/promo/__link/promo__link.css);
+@import url(../blocks/promo/__img/promo__img.css);
+@import url(../blocks/promo/__text-wrapper/promo__text-wrapper.css);
 
 
 /* Footer */
