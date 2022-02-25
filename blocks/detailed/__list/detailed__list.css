@@ -1,0 +1,23 @@
+.detailed__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 74px;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .detailed__list {
+    row-gap: 58px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .detailed__list {
+    row-gap: 47px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .detailed__list {
+    row-gap: 50px;
+  }
+}
