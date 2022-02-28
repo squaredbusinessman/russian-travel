@@ -6,22 +6,15 @@
   grid-row: 2;
 }
 
-.card__caption:first-child {
-  margin-bottom: 26px;
-}
-
 @media (max-width: 1023px) {
   .card__caption {
     margin: 0 auto;
     font-size: 16px;
   }
 
-  .card__caption:first-child {
-    margin-bottom: 25px;
-  }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 520px) {
   .card__caption {
     width: calc(100% - 16px*2);
   }
