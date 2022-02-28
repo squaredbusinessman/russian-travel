@@ -13,7 +13,7 @@
 @media (max-width: 1023px) {
   .detailed {
     width: 100%;
-    margin-bottom: 66px;
+    margin-bottom: 88px;
   }
 }
 
@@ -21,4 +21,10 @@
  .detailed {
    width: calc(100% - 24px*2);
  }
+}
+
+@media (max-width: 540px) {
+  .detailed {
+    margin-bottom: 66px;
+  }
 }

@@ -10,7 +10,7 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   .promo__subtitle {
-    max-width: calc(100% - 16px*2);
+    max-width: calc(100% - 30px*2);
     font-size: 14px;
     line-height: 1.14;
   }
